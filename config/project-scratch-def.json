@@ -1,5 +1,42 @@
 {
-  "orgName": "cgilmore company",
+  "orgName": "healthcloud-bot_DEV",
   "edition": "Developer",
-  "features": []
+  "features": [
+      "Communities", 
+      "EnableSetPasswordInApi", 
+      "ContactsToMultipleAccounts", 
+      "PersonAccounts", 
+      "HealthCloudAddOn",
+      "ServiceCloud",
+      "Chatbot",
+      "Communities",
+      "Knowledge",
+      "LiveAgent",
+      "LightningServiceConsole",
+      "LiveMessage"
+    ],
+  "hasSampleData": true,
+  "settings": {
+    "botSettings": {
+        "enableBots": true
+    },
+    "experienceBundleSettings": {
+        "enableExperienceBundleMetadata": true
+    },
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+        "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+        "enableS1EncryptedStoragePref2": false
+    },
+    "omniChannelSettings": {
+        "enableOmniChannel": true
+    },
+    "liveAgentSettings": {
+      "enableLiveAgent": true
+    }
+  }
 }

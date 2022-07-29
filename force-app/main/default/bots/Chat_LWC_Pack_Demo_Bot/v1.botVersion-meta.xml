@@ -168,7 +168,7 @@ Select a Date:</message>
         <botSteps>
             <botVariableOperation>
                 <botInvocation>
-                    <invocationActionName>CLWCP__Get_Chat_Session</invocationActionName>
+                    <invocationActionName>Get_Chat_Session</invocationActionName>
                     <invocationActionType>flow</invocationActionType>
                     <invocationMappings>
                         <parameterName>strRoutableId</parameterName>
@@ -457,7 +457,7 @@ Select a Date:</message>
         <botSteps>
             <botVariableOperation>
                 <botInvocation>
-                    <invocationActionName>CLWCP__Get_Cases</invocationActionName>
+                    <invocationActionName>Get_Cases</invocationActionName>
                     <invocationActionType>flow</invocationActionType>
                     <invocationMappings>
                         <parameterName>objCases</parameterName>
@@ -490,7 +490,7 @@ Select a Date:</message>
         </botSteps>
         <botSteps>
             <botMessages>
-                <message>lwc:recordtile:Case:{!Case.Id}:Subject,CLWCP__ContactName__c,Status,Priority</message>
+                <message>lwc:recordtile:Case:{!Case.Id}:Subject,ContactName__c,Status,Priority</message>
             </botMessages>
             <type>Message</type>
         </botSteps>
@@ -536,7 +536,7 @@ Select a Date:</message>
         <botSteps>
             <botVariableOperation>
                 <botInvocation>
-                    <invocationActionName>CLWCP__Get_Cases</invocationActionName>
+                    <invocationActionName>Get_Cases</invocationActionName>
                     <invocationActionType>flow</invocationActionType>
                     <invocationMappings>
                         <parameterName>objCases</parameterName>
